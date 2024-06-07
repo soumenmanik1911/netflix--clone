@@ -1,0 +1,551 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: black;
+}
+
+.first {
+    background-image: url(images/IN-en-20240527-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    height: 85vh;
+    width: 100vw;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1000px, 100vw);
+
+}
+
+.box {
+    background-color: black;
+    height: 85vh;
+    width: 100vw;
+    opacity: 0.44;
+    position: absolute;
+    top: 0;
+}
+
+.netflix {
+    display: flex;
+    align-items: center;
+    max-width: 80vw;
+    margin: auto;
+    justify-content: space-between;
+    height: 62px;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+
+}
+
+.tag {
+    position: relative;
+    align-items: center;
+
+
+    top: 150px;
+    left: 400px;
+    width: 60vw;
+}
+
+.text1 {
+    color: aliceblue;
+    font-style: normal;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    font-size: 40px;
+    line-height: 2;
+
+}
+
+.text2 {
+    color: aliceblue;
+    font-weight: 500;
+    font-size: 25px;
+    position: relative;
+    left: 200px;
+    line-height: 2.5;
+}
+
+.text3 {
+    color: aliceblue;
+    font-weight: 500;
+    font-size: 25px;
+    position: relative;
+
+
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 170px;
+    left: 410px;
+
+
+}
+
+input {
+
+    opacity: 0.70;
+    background-color: black;
+    color: white;
+    width: 335px;
+    height: 48px;
+    font-size: large;
+    font-weight: 600;
+
+}
+
+.get {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    width: 200px;
+    height: 53px;
+    font-weight: bolder;
+    font-size: 20px;
+    margin: 10px;
+
+}
+
+.box2 {
+    width: 100vw;
+    height: 10px;
+    background-color: gray;
+    position: relative;
+}
+
+.second {
+    background-color: black;
+    width: 100vw;
+    height: 85vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+
+}
+
+.room {
+    width: 552px;
+    height: 212px;
+    color: aliceblue;
+    left: 130px;
+    text-align: center;
+    position: relative;
+}
+
+.text4 {
+    color: aliceblue;
+    font-style: normal;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    font-size: 43px;
+    line-height: 2;
+}
+
+.text5 {
+    color: aliceblue;
+    font-weight: 500;
+    font-size: 28px;
+
+    left: 230px;
+
+}
+
+img {
+    position: relative;
+    left: 170px;
+}
+
+.vid {
+    position: relative;
+    right: 385px;
+    bottom: 10px;
+}
+
+video {
+    width: 466px;
+}
+
+.box3 {
+    width: 100vw;
+    height: 10px;
+    background-color: gray;
+    position: relative;
+}
+
+.third {
+    background-color: black;
+    width: 100vw;
+    height: 85vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.stra {
+
+    right: 20px;
+    top: 10px;
+    bottom: 50px;
+    position: relative;
+}
+
+.thirdbox {
+    width: 327px;
+    height: 100px;
+    border: 2px solid rgb(108, 103, 103);
+    border-radius: 10px;
+    position: relative;
+    top: 153px;
+    left: -291px;
+    background-color: black;
+
+}
+
+.boxshot {
+    width: 64px;
+    position: relative;
+    top: 2px;
+    left: 14px;
+}
+
+.line1 {
+    position: relative;
+    bottom: 60px;
+    left: 93px;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+
+}
+
+.line2 {
+    position: relative;
+    bottom: 58px;
+    left: 93px;
+    color: blue;
+
+}
+
+.room2 {
+    width: 552px;
+    height: 212px;
+    color: aliceblue;
+    left: 130px;
+    text-align: center;
+    position: relative;
+    right: 200px;
+}
+
+.line8 {
+    color: aliceblue;
+    font-style: normal;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    font-size: 48px;
+
+    position: relative;
+    left: -336px;
+    line-height: 1.3;
+}
+
+.line9 {
+    color: aliceblue;
+    font-weight: 500;
+    font-size: 29px;
+    position: relative;
+    left: -336px;
+    line-height: 1;
+
+
+
+}
+
+.box4 {
+    width: 100vw;
+    height: 10px;
+    background-color: gray;
+    position: relative;
+}
+
+.forth {
+    background-color: black;
+    width: 100vw;
+    height: 85vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.forthbox {
+    width: 552px;
+    height: 212px;
+    color: aliceblue;
+
+    text-align: center;
+    position: relative;
+    left: 180px;
+}
+
+.para1 {
+    color: aliceblue;
+    font-style: normal;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    font-size: 48px;
+    line-height: 2;
+}
+
+.para2 {
+    color: aliceblue;
+    font-weight: 500;
+    font-size: 33px;
+
+    left: 30px;
+
+}
+
+.loop {
+    position: relative;
+    left: 341px;
+    width: 410px;
+}
+
+.hi {
+    position: relative;
+    left: -346px;
+    bottom: -64px;
+}
+
+.border4 {
+    width: 100vw;
+    height: 10px;
+    background-color: gray;
+    position: relative;
+}
+
+.fifth {
+    background-color: black;
+    width: 100vw;
+    height: 85vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.fifthbox{
+    width: 552px;
+    height: 212px;
+    color: aliceblue;
+
+    
+    position: relative;
+    left: 10px;
+
+}
+.line4{
+    color: aliceblue;
+    font-style: normal;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    font-size: 48px;
+    line-height: 2;
+    position: relative;
+    left: 178px;
+    
+}
+
+.line5{
+    color: aliceblue;
+    font-weight: 500;
+    font-size: 26px;
+    position: relative;
+
+    left: 178px; 
+}
+.border5 {
+    width: 100vw;
+    height: 10px;
+    background-color: gray;
+    position: relative;
+}
+.sixth{  background-color: black;
+    width: 100vw;
+    height:auto;
+    position: relative;
+   
+
+}
+h1 {
+    position: relative;
+    font-size: 48px;
+    margin-bottom: 1em;
+    color: aliceblue;
+    text-align: center;
+    font-weight: bolder;
+    padding: 20px;
+  }
+  
+  .faq-container {
+    display: flex;
+    flex-direction: column;
+    width: 65vw;
+    margin: 0 auto;
+  }
+  
+  .faq-item {
+    background-color: #333;
+    padding: 1em;
+    margin-bottom: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    color: aliceblue;
+    font-size: 19px;
+  }
+  
+  .faq-item h2 {
+    margin: 0;
+    font-size: 1.2em;
+  }
+  
+  .faq-item p {
+    margin-top: 0.5em;
+    display: none;
+  }
+  
+  .faq-item.active p {
+    display: block;
+  }
+  
+  .plus-icon {
+    float: right;
+    font-size: 2.5em;
+    line-height: 1;
+    transition: transform 0.3s ease;
+  }
+  
+  .faq-item.active.plus-icon {
+    transform: rotate(90deg);
+  }
+  .container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 100vw;
+   
+  }
+  .ready{
+    font-size: 25px;
+    background-color: black;
+    font-weight: bold;
+    color: white;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .form {
+    display: flex;
+    gap: 20px;
+  }
+  
+  input[type="email"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #222;
+    color: white;
+    width: 335px;
+    height: 34px;
+  }
+  
+  .button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    width: 200px;
+    height: 53px;
+    font-weight: bolder;
+    font-size: 20px;
+  }
+  
+  button:hover {
+    background-color: darkred;
+  }
+  .lastbox1{
+    position: relative;
+    width: 100vw;
+    height: 10vh;
+    background-color: black;
+  }
+  .lastbox2{ width: 100vw;
+    height: 10px;
+    background-color: gray;
+    position: relative;
+
+  }
+  .sign{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    position: relative;
+    z-index: 10;
+  
+  }
+  .lastcontainer{
+    background-color: black;
+    width: 100vw;
+  }
+  .container5 {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    
+    
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+
+.col {
+    flex-basis: 12%;
+    margin: 2px;
+}
+
+.col a {
+    display: block;
+    text-decoration: none;
+    color: #a9a3a3;
+    opacity: 10;
+   
+}
+
+.lang-select {
+    font-weight: bold;
+    color: #ccc;
+}
+main h1{
+    font-size: 36px;
+    color: #333;
+}
